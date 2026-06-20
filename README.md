@@ -1,30 +1,23 @@
-# Naruto-Sasuke
+# 🌀 Naruto-Sasuke AR Hand Tracking
 A browser based interactive visual effects project.
-Naruto & Sasuke Hand Gesture Effects
 
-A browser-based interactive visual effects project that uses MediaPipe Hands and a webcam feed to detect hand gestures in real time. When a hand opens, themed Naruto and Sasuke visual effects are triggered and positioned dynamically based on hand landmarks.
+An interactive augmented reality (AR) web application that brings Naruto and Sasuke's iconic jutsu to life using your webcam! By utilizing Google's MediaPipe framework for real-time hand tracking, this project overlays dynamic video effects (like a Rasengan or Chidori) onto your hands when you open your palms.
 
-Features
-🎥 Real-time webcam capture
-✋ Hand tracking with MediaPipe Hands
-🦴 Neon-blue hand skeleton visualization
-👋 Open-palm gesture detection
-🔥 Naruto effect for the left hand
-⚡ Sasuke effect for the right hand
-🎬 Animated video overlays attached to hand positions
-🌑 Cinematic darkened screen overlay
-🎮 Supports tracking up to two hands simultaneously
-Demo
 
-When a user opens their hand:
+## Features
 
-Left Hand → Displays the Naruto visual effect.
-Right Hand → Displays the Sasuke visual effect.
-Effects smoothly fade in and out based on gesture state.
-Technologies Used
-HTML5
-CSS3
-JavaScript (Vanilla)
-MediaPipe Hands
-MediaPipe Camera Utils
-MediaPipe Drawing Utils
+* Real-Time Hand Tracking: Detects up to two hands simultaneously using a standard webcam.
+* Gesture Recognition: Automatically detects an "open hand" gesture to trigger the visual effects.
+
+### Dynamic Visuals
+* Left Hand: Triggers the Naruto effect.
+* Right Hand: Triggers the Sasuke effect.
+
+
+## Tech Stack
+
+* HTML5 / CSS: For structure, layout, and blending modes (mix-blend-mode: screen for the VFX).
+* JavaScript: Core logic and DOM manipulation.
+* MediaPipe Hands: Machine learning model for high-fidelity hand and finger tracking.
+* MediaPipe Camera & Drawing Utils: Helper libraries for webcam access and rendering landmarks.
+
