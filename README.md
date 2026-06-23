@@ -1,5 +1,4 @@
 # 🌀 Naruto-Sasuke AR Hand Tracking
-A browser based interactive visual effects project.
 
 An interactive augmented reality (AR) web application that brings Naruto and Sasuke's iconic jutsu to life using your webcam! By utilizing Google's MediaPipe framework for real-time hand tracking, this project overlays dynamic video effects (like a Rasengan or Chidori) onto your hands when you open your palms.
 
